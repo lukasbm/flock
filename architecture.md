@@ -51,9 +51,19 @@ should support the following for syncing
 
 - Be able to register pipelines to an experiment (e.g calculating metamer image metrics)
 - Using the CLI these pipelines are then started and the results are stored in the experiment directory
+- the outputs of a pipeline (should they have to be defined in the pipeline beforehand?) are hashed (the entire output
+  folder) to avoid duplicate computation.
 
 # Querying
 
 - Runs should be requested in a simple table format and then filtered in the processing language.
     - E.g pandas in python, data.frame in R, etc.
     - This is the part that should be ported to other languages (e.g R and Go)
+
+# Metrics / Logging
+
+- Support log text and numerical data
+- Media data like images and checkpoints should just be saved to disk.
+- Steps can be assigned multiple times, the data can be averaged in this case (numerical only) (e.g. this relates to the
+  problem with the learning rate curve i have with my current setup)
+- 
