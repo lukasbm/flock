@@ -1,0 +1,38 @@
+{
+  "metamers": [
+    {
+      "step": 0,
+      "dimension": "image",
+      "value": {
+        "reference_label": 324,
+        "reference_prediction": 454,
+        "metamer_prediction": 454,
+        "loss": 3.34
+      }
+    }
+  ],
+  "learning_rate": [
+    {
+      "step": 0,
+      "dimension": "epoch",
+      "value": 0.01
+    },
+    {
+      "step": 1,
+      "dimension": "epoch",
+      "value": 0.005
+    }
+  ],
+  "loss": [
+    {
+      "step": 0,
+      "dimension": "epoch",
+      "value": 3.34
+    },
+    {
+      "step": 1,
+      "dimension": "epoch",
+      "value": 3.34
+    }
+  ]
+}

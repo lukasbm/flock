@@ -1,0 +1,41 @@
+{
+  //  "id": "xir6f53",
+  "name": "hello world",
+  "project": "master-thesis",
+  "tags": [
+    "initial_runs",
+    "final"
+  ],
+  "wall_time": "04:12:22",
+  "state": "completed|failed|crashed|running|missing_eval",
+  "description": "This is a simple hello world example",
+  "created_at": "2019-01-01T00:00:00Z",
+  "updated_at": "2019-01-01T00:00:00Z",
+  "runtime": {
+    "executable": "python3.12",
+    "os": "linux (just the `uname -a` output)",
+    "command": "python hello_world.py param1=1 param2=2",
+    "flock_version": "0.1.10",
+    "hardware": {
+      "cpu": "Intel i7-8700K",
+      "ram": "32GB",
+      "gpu": [
+        "Nvidia GTX 1080Ti",
+        "Nvidia GTX 1080Ti"
+      ]
+    }
+  },
+  "config": {
+    "param1": "1",
+    "param2": "2"
+  },
+  "pipelines": {
+    "high_frequency_features": {
+      "hash": null
+    },
+    "recognizability": {
+      "hash": "1234567890abcdef"
+    }
+  },
+  "hash": "1234567890abcdef"
+}
